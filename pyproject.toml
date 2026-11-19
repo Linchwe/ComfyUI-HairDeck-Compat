@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-hairdeck-compat"
+description = "Helper for ComfyUI-HairDeck: runs it on RTX 20 series and older (FP32 fallback), without triton-windows and with setuptools 81+. Adds no nodes and does not change HairDeck's files."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Linchwe/ComfyUI-HairDeck-Compat"
+
+[tool.comfy]
+PublisherId = "linchwe"
+DisplayName = "ComfyUI-HairDeck-Compat"
+Icon = ""
